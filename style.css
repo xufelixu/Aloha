@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../PlayfairDisplay-Italic.eot");
+  src: url("../PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../PlayfairDisplay-Italic.woff") format("woff"),
+    url("../PlayfairDisplay-Italic.ttf") format("truetype"),
+    url("../PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Regular.eot");
+  src: url("PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+    url("PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("PlayfairDisplay-Regular.woff") format("woff"),
+    url("PlayfairDisplay-Regular.ttf") format("truetype"),
+    url("PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display SC";
+  src: url("PlayfairDisplaySC-Bold.eot");
+  src: url("PlayfairDisplaySC-Bold.eot?#iefix") format("embedded-opentype"),
+    url("PlayfairDisplaySC-Bold.woff2") format("woff2"),
+    url("PlayfairDisplaySC-Bold.woff") format("woff"),
+    url("PlayfairDisplaySC-Bold.ttf") format("truetype"),
+    url("PlayfairDisplaySC-Bold.svg#PlayfairDisplaySC-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* pesudo to do some change 
+h1:before {
+  content: "hello";
+}*/
+
+/* bcgd-banner */
+.bkgd-banner {
+  background-image: url("./project-01/images/banner-girl.png"),
+    url("./project-01/images/flower-bkgd.jpg");
+
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bkgd-banner h2 {
+  text-align: center;
+}
+
+.text-mid h2,
+h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+.text-mid h2 {
+  padding-top: 20px;
+}
+.text-mid h3 {
+  padding-bottom: 20px;
+}
+.banner-text-1 {
+  padding-top: 200px;
+  color: white;
+}
+
+.banner-text-2 {
+  padding-bottom: 200px;
+  color: white;
+  font-size: 50px;
+}
+
+.icon a {
+  color: white;
+}
+
+.icon li {
+  list-style: none;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: Space-between;
+
+  color: white;
+}
+.container {
+  width: 1248px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.copy-icon {
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top a {
+  color: red;
+}
+
+.pictures h3 {
+  text-align: center;
+}
+
+.men {
+  background-image: url("./project-01/images/mens-category.jpg");
+}
+
+.trends {
+  background-image: url("./project-01/images/trends-category.jpg");
+}
+
+.glasses {
+  background-image: url("./project-01/images/glasses-category.jpg");
+}
+
+.sales {
+  background-image: url("./project-01/images/sale-category.jpg");
+}
+
+.bags {
+  background-image: url("./project-01/images/bags-category.jpg");
+}
+
+.womens {
+  background-image: url("./project-01/images/womens-category.jpg");
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.pictures-2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.men {
+  flex: 6;
+  height: 50%;
+  width: 40%;
+  margin: 5px;
+}
+.pictures h3 {
+  margin-top: 20%;
+  font-size: 3rem;
+}
+.womens {
+  flex: 4;
+  height: 50%;
+  width: 40%;
+  margin: 5px;
+}
+.trends {
+  flex: 2;
+  margin: 5px;
+}
+.sales {
+  flex: 2;
+  margin: 5px;
+}
+.bags {
+  flex: 2;
+  margin: 5px;
+}
+.glasses {
+  flex: 2;
+  margin: 5px;
+}
+
+.moving-1 {
+  display: flex;
+}
+.moving-2 {
+  display: flex;
+}
+
+/*rotate display*/
+/* moving-1 */
+.moving-1a {
+  background-image: url("./project-01/images/stretch-knit-dress.jpg");
+  background-repeat: no-repeat;
+}
+.moving-1b {
+  background-image: url("./project-01/images/cotton-blue-shirt.jpg");
+  background-repeat: no-repeat;
+}
+
+.moving-1c {
+  background-image: url("./project-01/images/checked-stretch-dress.jpg");
+  background-repeat: no-repeat;
+}
+
+.moving-1d {
+  background-image: url("./project-01/images/blue-hipster-backpack.jpg");
+  background-repeat: no-repeat;
+}
+
+.moving-1 {
+  height: 10rem;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 50px;
+
+  width: auto;
+  align-items: flex-start;
+}
+
+/* moving-2 */
+.moving-2a {
+  background-image: url("./project-01/images/cotton-yellow-tshirt.jpg");
+  background-repeat: no-repeat;
+}
+.moving-2b {
+  background-image: url("./project-01/images/demin-overall-shorts.jpg");
+  background-repeat: no-repeat;
+}
+.moving-2c {
+  background-image: url("./project-01/images/pink-dotted-dress.jpg");
+  background-repeat: no-repeat;
+}
+.smoving-2d {
+  background-image: url("./project-01/images/blue-silk-dress.jpg");
+  background-repeat: no-repeat;
+}
+
+.moving-2 {
+  height: 10rem;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 200px;
+  width: auto;
+  align-items: flex-start;
+}
+
+.red {
+  color: red;
+}
+
+.moving-1a,
+.moving-1b,
+.moving-1c,
+.moving-1d,
+.moving-2a,
+.moving-2b,
+.moving-2c,
+.moving-2d {
+  margin: 50px;
+  height: 200%;
+  width: 200%;
+}
+
+.sign-up {
+  background-image: url("./project-01/images/wave-bkgd.jpg");
+  background-repeat: no-repeat;
+  margin-top: 20%;
+  height: 60%;
+  width: auto;
+  text-align: left;
+  padding: 5%;
+}
+.sign-up-text {
+  color: white;
+  padding: 10px;
+
+  text-align: center;
+  margin-right: 20%;
+}
+.sign-up h1 {
+  margin: auto;
+  color: white;
+
+  text-align: center;
+  margin-right: 20%;
+}
+.password {
+  text-align: center;
+  margin-right: 20%;
+}
+
+#submit {
+  background-color: #e2574c;
+  color: #fff;
+  border-radius: 34px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  flex: 0 1 25%;
+}
+#youremail {
+  display: block;
+  height: 15px;
+  padding: 12px 5%;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  color: #888;
+  flex: 0 1 70%;
+}
+.password {
+  max-width: 400px;
+  margin-left: 30%;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.men womens {
+  font-size: 40px;
+  color: white;
+}
