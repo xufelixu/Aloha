@@ -38,14 +38,13 @@ h1:before {
   content: "hello";
 }*/
 
-/* bcgd-banner */
 .bkgd-banner {
-  background-image: url("./project-01/images/banner-girl.png"),
+  background: url("./project-01/images/banner-girl.png"),
     url("./project-01/images/flower-bkgd.jpg");
 
   height: 50rem;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 40px, center;
 }
 
 .bkgd-banner h2 {
@@ -74,19 +73,19 @@ h3 {
   font-size: 50px;
 }
 
-.icon a {
-  color: white;
+.navi {
+  margin-right: 10%;
+  height: 60px;
+  margin-top: 60px;
 }
 
-.icon li {
-  list-style: none;
+.navi a {
+  padding: 10px 50px 10px 10px;
 }
-
 .footer-container {
   display: flex;
   align-items: center;
   justify-content: Space-between;
-
   color: white;
 }
 .container {
@@ -112,223 +111,331 @@ h3 {
   color: red;
 }
 
-.pictures h3 {
-  text-align: center;
+.top img {
+  height: 58px;
+  margin-top: 60px;
+  text-align: left;
 }
+
+/* category pic  */
 
 .men {
   background-image: url("./project-01/images/mens-category.jpg");
+  width: 50%;
+  height: 25vw;
+  background-size: cover;
 }
 
 .trends {
   background-image: url("./project-01/images/trends-category.jpg");
+  width: 25%;
+  height: 25vw;
+  background-size: cover;
 }
 
 .glasses {
   background-image: url("./project-01/images/glasses-category.jpg");
+  width: 25%;
+  height: 25vw;
+  background-size: cover;
 }
 
 .sales {
   background-image: url("./project-01/images/sale-category.jpg");
+  width: 25%;
+  height: 25vw;
+  background-size: cover;
 }
 
 .bags {
   background-image: url("./project-01/images/bags-category.jpg");
+  width: 25%;
+  height: 25vw;
+  background-size: cover;
 }
 
 .womens {
   background-image: url("./project-01/images/womens-category.jpg");
+  width: 50%;
+  height: 25vw;
+  background-size: cover;
 }
 
-.pictures {
+/* category pic  */
+.category {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   color: white;
 }
 
-.pictures-2 {
+@media only screen and (min-width: 1240px) {
+  /* bcgd-banner */
+  .bkgd-banner {
+    background: url("./project-01/images/banner-girl.png"),
+      url("./project-01/images/flower-bkgd.jpg");
+
+    height: 50;
+
+    /* background-repeat: no-repeat; */
+    background-position: center 40px, center;
+  }
+
+  .bkgd-banner h2 {
+    text-align: center;
+  }
+  .fab fa-facebook {
+    text-decoration: none;
+  }
+  .text-mid h2,
+  h3 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .text-mid h2 {
+    padding-top: 20px;
+  }
+  .text-mid h3 {
+    padding-bottom: 20px;
+  }
+  .banner-text-1 {
+    padding-top: 200px;
+    color: white;
+  }
+
+  .banner-text-2 {
+    padding-bottom: 200px;
+    color: white;
+    font-size: 50px;
+  }
+
+  .navi {
+    margin-right: 10%;
+    height: 60px;
+
+    margin-top: 60px;
+  }
+
+  .navi a {
+    padding: 10px 50px 10px 10px;
+  }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: Space-between;
+    color: white;
+  }
+  .container {
+    width: 1248px;
+  }
+
+  .footer {
+    background-color: black;
+  }
+
+  .copy-icon {
+    color: white;
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .top a {
+    color: red;
+  }
+  s
+
+
+
+  /* category pic */
+
+  .men {
+    flex: 6;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 100%;
+  }
+  .womens {
+    flex: 4;
+    margin: 0 0.5% 0 0.5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .trends {
+    margin: 0 0.5% 0 0.5%;
+    flex: 2;
+    background-size: 120%;
+    background-repeat: no-repeat;
+  }
+
+  .glasses {
+    flex: 2;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0 0.5% 0 0.5%;
+  }
+  .sales {
+    margin: 0 0.5% 0 0.5%;
+    flex: 2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .bags {
+    flex: 2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .trends h3 {
+    margin-top: 60%;
+  }
+  .glasses h3 {
+    margin-top: 60%;
+  }
+  .sales h3 {
+    margin-top: 40%;
+  }
+  .bags h3 {
+    margin-top: 40%;
+  }
+
+  .red {
+    color: red;
+    position: 300px;
+  }
+
+  .moving-1a,
+  .moving-1b,
+  .moving-1c,
+  .moving-1d,
+  .moving-2a,
+  .moving-2b,
+  .moving-2c,
+  .moving-2d {
+    margin: 50px;
+    height: 200%;
+    width: 200%;
+  }
+
+  .sign-up {
+    background: url("./project-01/images/wave-bkgd.jpg");
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    height: 60%;
+    width: auto;
+    text-align: left;
+    padding: 5%;
+    background-color: #e2574c;
+    background-position: bottom;
+  }
+  .sign-up-text {
+    color: white;
+    padding: 10px;
+
+    text-align: center;
+    margin-right: 20%;
+  }
+  .sign-up h1 {
+    margin: auto;
+    color: white;
+
+    text-align: center;
+    margin-right: 20%;
+  }
+  .password {
+    text-align: center;
+    margin-right: 20%;
+  }
+
+  #submit {
+    background-color: #e2574c;
+    color: #fff;
+    border-radius: 34px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    flex: 0 1 25%;
+  }
+  #youremail {
+    display: block;
+    height: 15px;
+    padding: 12px 5%;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    color: #888;
+    flex: 0 1 70%;
+  }
+  .password {
+    max-width: 400px;
+    margin-left: 30%;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 0px) {
+  /* top banner  */
+  .category {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .logo {
+    order: 1;
+    flex-basis: 50%;
+  }
+
+  .navi {
+    order: 3;
+    border-top: solid #969696;
+    margin: 0px;
+    padding-top: 10px;
+    height: 40px;
+  }
+  .navi a {
+    padding-left: 40px;
+    color: #b64036;
+  }
+
+  .cart-icon {
+    order: 2;
+  }
+  .cart-icon img {
+    width: 50px;
+  }
+  .logo img {
+    width: 100px;
+    margin: 0px;
+  }
+}
+.container {
   display: flex;
-  justify-content: space-between;
-  color: white;
+  height: 20%;
+  flex-wrap: wrap;
 }
 
-.men {
-  flex: 6;
-  height: 50%;
-  width: 40%;
-  margin: 5px;
-}
-.pictures h3 {
-  margin-top: 20%;
-  font-size: 3rem;
-}
-.womens {
-  flex: 4;
-  height: 50%;
-  width: 40%;
-  margin: 5px;
-}
-.trends {
-  flex: 2;
-  margin: 5px;
-}
-.sales {
-  flex: 2;
-  margin: 5px;
-}
-.bags {
-  flex: 2;
-  margin: 5px;
-}
-.glasses {
-  flex: 2;
-  margin: 5px;
+.banner-text-1 {
+  margin-top: 0px;
 }
 
-.moving-1 {
-  display: flex;
-}
-.moving-2 {
-  display: flex;
-}
-
-/*rotate display*/
-/* moving-1 */
-.moving-1a {
-  background-image: url("./project-01/images/stretch-knit-dress.jpg");
-  background-repeat: no-repeat;
-}
-.moving-1b {
-  background-image: url("./project-01/images/cotton-blue-shirt.jpg");
-  background-repeat: no-repeat;
+/* bkgd banner */
+.bkgd-banner {
+  font-size: 14px;
+  color: #2d2d2d;
 }
 
-.moving-1c {
-  background-image: url("./project-01/images/checked-stretch-dress.jpg");
-  background-repeat: no-repeat;
-}
-
-.moving-1d {
-  background-image: url("./project-01/images/blue-hipster-backpack.jpg");
-  background-repeat: no-repeat;
-}
-
-.moving-1 {
-  height: 10rem;
-  display: flex;
-  align-items: flex-end;
-  margin-top: 50px;
-
-  width: auto;
-  align-items: flex-start;
-}
-
-/* moving-2 */
-.moving-2a {
-  background-image: url("./project-01/images/cotton-yellow-tshirt.jpg");
-  background-repeat: no-repeat;
-}
-.moving-2b {
-  background-image: url("./project-01/images/demin-overall-shorts.jpg");
-  background-repeat: no-repeat;
-}
-.moving-2c {
-  background-image: url("./project-01/images/pink-dotted-dress.jpg");
-  background-repeat: no-repeat;
-}
-.smoving-2d {
-  background-image: url("./project-01/images/blue-silk-dress.jpg");
-  background-repeat: no-repeat;
-}
-
-.moving-2 {
-  height: 10rem;
-  text-align: center;
-  display: flex;
-  align-items: flex-end;
-  margin-top: 200px;
-  width: auto;
-  align-items: flex-start;
-}
-
-.red {
-  color: red;
-}
-
-.moving-1a,
-.moving-1b,
-.moving-1c,
-.moving-1d,
-.moving-2a,
-.moving-2b,
-.moving-2c,
-.moving-2d {
-  margin: 50px;
-  height: 200%;
-  width: 200%;
-}
-
-.sign-up {
-  background-image: url("./project-01/images/wave-bkgd.jpg");
-  background-repeat: no-repeat;
-  margin-top: 20%;
-  height: 60%;
-  width: auto;
-  text-align: left;
-  padding: 5%;
-}
-.sign-up-text {
-  color: white;
-  padding: 10px;
-
-  text-align: center;
-  margin-right: 20%;
-}
-.sign-up h1 {
-  margin: auto;
-  color: white;
-
-  text-align: center;
-  margin-right: 20%;
-}
-.password {
-  text-align: center;
-  margin-right: 20%;
-}
-
-#submit {
-  background-color: #e2574c;
-  color: #fff;
-  border-radius: 34px;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  flex: 0 1 25%;
-}
-#youremail {
-  display: block;
-  height: 15px;
-  padding: 12px 5%;
-  border-radius: 20px;
-  border: none;
-  text-align: left;
-  color: #888;
-  flex: 0 1 70%;
-}
-.password {
-  max-width: 400px;
-  margin-left: 30%;
-  padding: 3px;
-  background-color: #fff;
-  border-radius: 25px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-
-.men womens {
-  font-size: 40px;
-  color: white;
+@media only screen and (min-width: 600px) {
 }
