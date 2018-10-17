@@ -34,7 +34,6 @@
   font-weight: bold;
   font-style: normal;
 }
-
 /* pesudo to do some change 
 h1:before {
   content: "hello";
@@ -56,15 +55,12 @@ h1:before {
   padding-bottom: 0px;
   height: 10%;
 }
-
 li {
   list-style: none;
 }
-
 .logo img {
   width: 80%;
 }
-
 .navi {
   order: 3;
   background-color: white;
@@ -79,14 +75,12 @@ li {
   padding-right: 20px;
   color: #e2574c;
 }
-
 .cart-icon {
   order: 2;
 
   flex-basis: 50%;
   height: 10%;
 }
-
 .cart-icon img {
   width: 30%;
   float: right;
@@ -121,7 +115,6 @@ h1 {
   font-weight: normal;
   font-style: italic;
 }
-
 .article h3 {
   font-weight: normal;
   font-style: italic;
@@ -136,7 +129,6 @@ h1 {
   flex-wrap: wrap;
   text-align: center;
 }
-
 .category a {
   text-decoration: none;
   color: white;
@@ -202,11 +194,9 @@ h1 {
   font-style: italic;
   font-size: 30px;
 }
-
 .main-carousel p {
   text-align: center;
 }
-
 .red {
   color: red;
 }
@@ -224,7 +214,6 @@ h1 {
   background-color: #e2574c;
   background-position: bottom;
 }
-
 .sign-up-text {
   color: white;
   padding: 40px;
@@ -234,7 +223,6 @@ h1 {
   font-weight: normal;
   font-style: italic;
 }
-
 .sign-up h1 {
   margin: auto;
   color: white;
@@ -245,7 +233,6 @@ h1 {
   font-weight: normal;
   font-style: italic;
 }
-
 .password {
   text-align: center;
   margin-right: 5%;
@@ -262,7 +249,6 @@ h1 {
   font-weight: bold;
   flex: 0 1 25%;
 }
-
 #youremail {
   display: block;
   height: 15px;
@@ -273,7 +259,6 @@ h1 {
   color: #888;
   flex: 0 1 70%;
 }
-
 .password {
   max-width: 450px;
   margin-left: 30%;
@@ -302,7 +287,6 @@ h1 {
 a:hover {
   color: red;
 }
-
 .copy-icon p {
   text-align: center;
 }
@@ -311,7 +295,6 @@ a:hover {
   text-decoration: none;
   color: white;
 }
-
 #address {
   color: #969696;
 }
@@ -319,12 +302,10 @@ a:hover {
 .social-media span {
   visibility: hidden;
 }
-
 .social-media ul {
   display: flex;
   align-items: flex-start;
 }
-
 .social-media a {
   color: white;
 }
@@ -334,14 +315,9 @@ a:hover {
     display: flex;
     flex-wrap: nowrap;
   }
-
   .logo {
     order: 1;
     width: 20%;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
   }
 
   .navi {
@@ -358,17 +334,14 @@ a:hover {
     width: 200px;
     position: center;
   }
-
   .cart-icon img {
     width: 100px;
     position: center;
   }
-
   .cart-icon {
     order: 3;
     width: 20%;
   }
-
   .navi a {
     margin: 0px;
   }
@@ -402,7 +375,6 @@ a:hover {
     font-weight: normal;
     font-style: italic;
   }
-
   .article h3 {
     font-weight: normal;
     font-style: italic;
@@ -418,7 +390,6 @@ a:hover {
     flex-wrap: wrap;
     text-align: center;
   }
-
   .category a {
     text-decoration: none;
     color: white;
@@ -482,12 +453,9 @@ a:hover {
   .main-carousel {
     display: flex;
   }
-
   .red {
     color: red;
   }
-
-  /*   footer     */
 
   .sign-up {
     background: url("./project-01/images/wave-bkgd.jpg");
@@ -500,7 +468,6 @@ a:hover {
     background-color: #e2574c;
     background-position: bottom;
   }
-
   .sign-up-text {
     color: white;
     padding: 40px;
@@ -510,7 +477,6 @@ a:hover {
     font-weight: normal;
     font-style: italic;
   }
-
   .sign-up h1 {
     margin: auto;
     color: white;
@@ -521,7 +487,6 @@ a:hover {
     font-weight: normal;
     font-style: italic;
   }
-
   .password {
     text-align: center;
     margin-right: 5%;
@@ -538,7 +503,6 @@ a:hover {
     font-weight: bold;
     flex: 0 1 25%;
   }
-
   #youremail {
     display: block;
     height: 15px;
@@ -549,7 +513,6 @@ a:hover {
     color: #888;
     flex: 0 1 70%;
   }
-
   .password {
     max-width: 450px;
     margin-left: 30%;
@@ -578,7 +541,6 @@ a:hover {
   a:hover {
     color: red;
   }
-
   .copy-icon p {
     text-align: center;
   }
@@ -587,7 +549,6 @@ a:hover {
     text-decoration: none;
     color: white;
   }
-
   #address {
     color: #969696;
   }
@@ -666,7 +627,6 @@ a:hover {
   .sign-up-text {
     width: 90%;
   }
-
   .bkgd-banner {
     background: url(./project-01/images/banner-girl.png) no-repeat,
       url(./project-01/images/flower-bkgd.jpg);
@@ -674,16 +634,11 @@ a:hover {
     background-size: auto 300px, auto 600px;
     height: 250px;
   }
-
   .category {
     width: 110%;
   }
-
-
-
   .footer-container {
     display: flex;
-    align-items: center;
     justify-content: Space-between;
     color: white;
   }
