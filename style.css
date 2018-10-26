@@ -254,8 +254,6 @@ h2 {
 
 .footer {
   background-color: #242424;
-  display: flex;
-  justify-content: center;
 }
 
 .copy-icon {
@@ -279,7 +277,6 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  height: 10px;
 }
 
 .social-media span {
@@ -502,12 +499,14 @@ h2 {
   }
 
   .footer {
+    display: flex;
     justify-content: space-between;
   }
 
   .icon {
     flex-direction: column;
     padding-top: 30px;
+    height: 10px;
   }
 
   a:hover {
