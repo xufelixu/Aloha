@@ -5,45 +5,46 @@
     <meta charset="utf-8">
     <meta author="FX" description="prject1">
     <meta http-equit="x-ua-compatible" content="ic=edge">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="style.css" rel="stylesheet">
 
-
+    <title>AlohaApparelCo.</title>
 </head>
 
-<title>AlohaApparelCo.</title>
-<!-- logo -->
-
 <body>
-    <div class="container">
+    <div class="navigation-container ">
+
         <div class="logo">
+
             <header id="top">
                 <img src="project-01/images/aloha-logo.svg" alt="aloha-logo">
             </header>
+
         </div>
-        <!-- navigation -->
+
         <div class="navi">
-            <nav>
-                <a href="About.html">ABOUT</a>
-                <a href="SHOP.html">SHOP</a>
-                <a href="FEATURE">FEATURE</a>
-                <a href="UPDATE">UPDATE</a>
-            </nav>
+
+            <a href="#top">ABOUT</a>
+            <a href="#shop">SHOP</a>
+            <a href="#festure">FEATURE</a>
+            <a href="#update">UPDATE</a>
+
         </div>
-        <!-- cart icon -->
+
         <div class="cart-icon">
             <img src="project-01/images/cart-icon.svg" alt="cart-icon">
         </div>
 
     </div>
 
-    <!-- bkgd-banner -->
+
     <div class="bkgd-banner">
         <h2 class="banner-text-1">NEW COLLECTION</h2>
-        <h2 class="banner-text-2">Spring / Summer 2019</h2>
+        <h1 class="banner-text-2">Spring / Summer 2019</h1>
     </div>
 
     <div class="text-mid">
@@ -55,11 +56,11 @@
     </div>
 
     <div>
-        <!-- use flex and background image instead -->
+
 
         <div class="category">
             <div class="men">
-                <h3> Men's</h3>
+                <h3 id="shop"> Men's</h3>
             </div>
             <div class="trends">
                 <h3>Trends</h3>
@@ -83,7 +84,7 @@
 
         <H2>Most-loved <strong>Products</strong></h2>
 
-        <div class="conainter-moving"></div>
+        <div id="festure"></div>
 
         <div class="main-carousel">
             <div class="carousel-cell">
@@ -131,12 +132,11 @@
         </div>
 
         <div class="sign-up">
-            <h1>Sign-up for Updates</h1>
-            <form action="http://www.google.com" method="post">
+            <h1 id="update">Sign-up for Updates</h1>
+            <form method="post">
                 <div class="sign-up-text">
-                    Stay updated on our latest product releases, be first to find out about upcoming<p> sales, and
-                        get
-                        free style tips from our blog. Unsubscribe at any time.</p>
+                    <p> Stay updated on our latest product releases, be first to find out about upcoming sales, and
+                        get free style tips from our blog. Unsubscribe at any time.</p>
                 </div>
 
                 <div class="password">
@@ -149,24 +149,24 @@
         <footer class="footer">
             <div class="footer-container">
                 <div class="copy-icon">
-                    <h6>&copy;
+                    <h5>&copy;
                         2016 Aloha Apparel Co.
                         Powered by HTML and CSS.
-                    </h6>
-                    <h6>604-604-6040.<a href="info@alohaapparel.com">info@alohaapparel.com</a>
-                    </h6>
-                    <h6>1490 W Broadway
+                    </h5>
+                    <p>604-604-6040.<a href="info@alohaapparel.com">info@alohaapparel.com</a>
+                    </p>
+                    <h4>1490 W Broadway
                         Vancouver, BC, Canada
-                    </h6>
+                    </h4>
                 </div>
 
                 <div class="social-media">
                     <ul class="icon">
-                        <li><a href="#"><i class="fab fa-facebook"></i><span>Facebook</span></a></li>
-                        <li><i class="fab fa-twitter-square"></i><a href="www.Twitter.com">Twitter</a></li>
-                        <li><i class="fab fa-instagram"></i><a href="www.Instagram">Instagram</a></li>
-                        <li><i class="fab fa-pinterest-square"></i><a href="www.Pinterest.com">Pinterest</a></li>
-                        <li><i class="fab fa-google-plus-square"></i><a href="www.google.com">Google+</a></li>
+                        <li><a href="www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+                        <li><a href="www.Twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+                        <li><a href="www.instatram.com"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+                        <li><a href="www.Pinterest.com"> <i class="fab fa-pinterest"></i> <span>Pinterest</span></a></li>
+                        <li><a href="www.google.com"><i class="fab fa-google-plus-g"></i> <span>Google+</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -185,9 +185,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
     <script src="index.js"></script>
 </body>
 
