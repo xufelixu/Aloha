@@ -225,7 +225,7 @@ h2 {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-  font-family: "Raleway", sans-serif;
+
   font-weight: bold;
   flex: 0 1 25%;
 }
@@ -499,17 +499,15 @@ h2 {
     font-family: Avenir, sans-serif;
     font-size: 16px;
     text-align: left;
-    border: red solid;
   }
 
   .footer {
-    border: solid blue;
-    justify-content: left;
+    justify-content: space-between;
   }
 
   .icon {
-    border: solid green;
-    justify-content: right;
+    flex-direction: column;
+    padding-top: 30px;
   }
 
   a:hover {
@@ -531,13 +529,16 @@ h2 {
 
   .social-media span {
     visibility: visible;
+    padding-right: 5px;
   }
 
   .icon li {
+    height: 100px;
     width: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
   }
 }
-
 @media only screen and (min-width: 1240px) {
   .men {
     background-image: url("./project-01/images/mens-category.jpg");
