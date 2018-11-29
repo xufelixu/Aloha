@@ -314,6 +314,11 @@ ul {
 }
 
 
+a {
+  text-decoration: none;
+
+}
+
 .flexcontainer {
 
   display: flex;
@@ -469,9 +474,7 @@ ul {
 
 }
 
-.navi li {
-
-  color: #e2574c;
+.table .navi li {
 
   display: flex;
 
@@ -493,16 +496,10 @@ ul {
 
 }
 
-a {
-  text-decoration: none;
-
+.navi-title {
+  font-size: 16px;
+  color: #e2574c;
 }
-
-.navi a:hover {
-  color: #b64036;
-
-}
-
 
 .titlepics {
 
@@ -527,7 +524,7 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+.titlepics a:visited {
 
   color: white;
 }
@@ -766,7 +763,7 @@ a:visited {
 
 }
 
-h1 {
+.h1 {
 
   display: flex;
 
@@ -814,7 +811,7 @@ h1 {
 
 }
 
-h2 {
+.newcollectionContainer {
 
   display: flex;
 
@@ -846,7 +843,7 @@ h2 {
 
 /* new collection (spring/summer) */
 
-h2 .newcollection {
+.h2 .newcollection {
 
   display: flex;
 
@@ -862,7 +859,7 @@ h2 .newcollection {
 
 /* most loved products */
 
-h3 {
+.h3 {
 
   font-family: 'Playfair Display';
 
@@ -914,7 +911,7 @@ h3 {
 
 }
 
-h3 .lovedprods {
+.h3 .lovedprods {
 
   font-family: 'Playfair Display';
 
@@ -925,7 +922,7 @@ h3 .lovedprods {
 }
 
 
-h3 ul {
+.h3 ul {
 
   display: flex;
 
@@ -975,7 +972,7 @@ h3 ul {
 
 
 
-h2 .year {
+div .year {
 
   text-align: center;
 
@@ -1045,7 +1042,7 @@ p {
 }
 
 
-h1 p {
+.h1 p {
 
   font-size: 14px;
 
@@ -1396,7 +1393,7 @@ footer a:hover {
 
 
 
-.foot-find-us a {
+.footer-find-us a {
 
   color: white;
 
@@ -1656,14 +1653,6 @@ footer a:hover {
   }
 
 
-
-
-
-
-
-
-
-
   .titlepics .catalogue1-1 {
 
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
@@ -1687,11 +1676,6 @@ footer a:hover {
     flex-grow: 1;
 
   }
-
-
-
-
-
 
 
   .catalogue2container {
@@ -1885,7 +1869,7 @@ footer a:hover {
 
 
 
-  h1 {
+  .h1 {
 
     font-size: 34px;
 
@@ -1894,7 +1878,7 @@ footer a:hover {
 
 
 
-  h1 p {
+  .h1 p {
 
     font-size: 16px;
 
@@ -1908,11 +1892,6 @@ footer a:hover {
     font-size: 34px;
 
   }
-
-
-
-
-
 
 
   .signup {
@@ -2023,7 +2002,7 @@ footer a:hover {
 
 
 
-  a:visited {
+  .social-media a:visited {
 
     color: white;
 
