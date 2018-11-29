@@ -124,7 +124,7 @@ section {
 }
 
 body {
-
+  margin: 10px;
   line-height: 1;
 
 }
@@ -158,7 +158,6 @@ q:after {
 table {
 
   border-collapse: collapse;
-
   border-spacing: 0;
 
 }
@@ -308,7 +307,6 @@ table {
 }
 
 
-
 ul {
 
   list-style-type: none;
@@ -367,8 +365,6 @@ ul {
 
 }
 
-
-
 .logothumbnail img {
 
   min-width: 100px;
@@ -387,7 +383,6 @@ ul {
 
 }
 
-
 .cart img[src="images/cart-icon.svg"] {
 
   width: 65px;
@@ -395,7 +390,6 @@ ul {
   padding-top: 20px;
 
 }
-
 
 .flexcontainer .cart {
 
@@ -449,7 +443,6 @@ ul {
 }
 
 
-
 .navi {
 
   display: flex;
@@ -476,8 +469,6 @@ ul {
 
 }
 
-
-
 .navi li {
 
   color: #e2574c;
@@ -503,16 +494,11 @@ ul {
 }
 
 a {
-
   text-decoration: none;
-
 
 }
 
-
-
 .navi a:hover {
-
   color: #b64036;
 
 }
@@ -536,29 +522,20 @@ a {
 
 }
 
-
-
-
 .titlepics a {
 
   text-decoration: none;
-
 }
 
 a:visited {
 
   color: white;
-
 }
-
-
-
 
 .titlepics a:hover {
 
   color: rgb(247, 223, 186)
 }
-
 
 
 .titlepics p {
@@ -605,7 +582,6 @@ a:visited {
 
 }
 
-
 .catalogue1-1 {
 
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
@@ -645,7 +621,6 @@ a:visited {
 
 }
 
-
 .catalogue2 {
 
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
@@ -671,7 +646,6 @@ a:visited {
   flex-grow: 1;
 
 }
-
 
 .catalogue2-1 {
 
@@ -699,9 +673,6 @@ a:visited {
 
 }
 
-
-
-
 .catalogue3container {
 
   display: flex;
@@ -714,13 +685,7 @@ a:visited {
 
   margin-top: 5px;
 
-
-
-
 }
-
-
-
 
 .catalogue3 {
 
@@ -744,12 +709,7 @@ a:visited {
 
   height: 100%;
 
-
-
-
 }
-
-
 
 
 .catalogue3-1 {
@@ -776,12 +736,6 @@ a:visited {
 
 }
 
-
-
-
-
-
-
 .container {
 
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
@@ -789,8 +743,6 @@ a:visited {
     url(images/banner-girl.png) no-repeat center 100px,
 
     url(images/flower-bkgd.jpg);
-
-
 
   background-size: auto, 300px, cover;
 
@@ -813,9 +765,6 @@ a:visited {
   margin-top: 50px;
 
 }
-
-
-
 
 h1 {
 
@@ -847,12 +796,6 @@ h1 {
 
 }
 
-
-
-
-
-
-
 .handtext {
 
   display: flex;
@@ -870,12 +813,6 @@ h1 {
   color: #2d2d2d;
 
 }
-
-
-
-
-
-
 
 h2 {
 
@@ -907,8 +844,6 @@ h2 {
 }
 
 
-
-
 /* new collection (spring/summer) */
 
 h2 .newcollection {
@@ -924,9 +859,6 @@ h2 .newcollection {
   font-weight: 500;
 
 }
-
-
-
 
 /* most loved products */
 
@@ -946,23 +878,10 @@ h3 {
 
 }
 
-
-
-
-
-
-
-
-
 .main-carousel {
-
   height: 500px;
 
-
-
 }
-
-
 
 
 .carousel-cell p {
@@ -983,9 +902,6 @@ h3 {
 
 }
 
-
-
-
 .h3text {
 
   display: flex;
@@ -996,13 +912,7 @@ h3 {
 
   font-size: 28px;
 
-
-
-
 }
-
-
-
 
 h3 .lovedprods {
 
@@ -1013,8 +923,6 @@ h3 .lovedprods {
   font-style: normal;
 
 }
-
-
 
 
 h3 ul {
@@ -1064,7 +972,6 @@ h3 ul {
   font-size: 34px;
 
 }
-
 
 
 
@@ -1125,8 +1032,6 @@ p {
 }
 
 
-
-
 .boldstyle {
 
   font-family: 'Playfair Display';
@@ -1138,8 +1043,6 @@ p {
   font-size: 28px;
 
 }
-
-
 
 
 h1 p {
@@ -1166,7 +1069,7 @@ h1 p {
 
   background-size: cover;
 
-  background-position: 100%, 100%;
+  background-position: bottom;
 
   background-repeat: no-repeat;
 
@@ -1188,9 +1091,6 @@ h1 p {
 
 }
 
-
-
-
 .h5container {
 
   display: flex;
@@ -1208,9 +1108,6 @@ h1 p {
   margin-top: 50px;
 
 }
-
-
-
 
 #signup {
 
@@ -1230,9 +1127,6 @@ h1 p {
 
 }
 
-
-
-
 #update {
 
   font-family: 'Playfair Display';
@@ -1248,8 +1142,6 @@ h1 p {
   color: white;
 
 }
-
-
 
 
 h5 p {
@@ -1271,25 +1163,22 @@ h5 p {
   position: relative;
 
   width: 100%;
-
+  font-size: 16px;
   max-width: 600px;
 
   margin: auto;
 
 }
 
-
+input[placeholder] {
+  font-size: 20px;
+  padding-left: 20px;
+}
 
 
 #enteremail {
 
-
-
-
   box-sizing: border-box;
-
-
-
 
   -webkit-border-radius: 50px;
 
@@ -1303,21 +1192,12 @@ h5 p {
 
   border: 0;
 
-
-
-
 }
 
-
-
-
-input:focus {
-
-  outline: none;
-
+input[type="text"]:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, .5);
 }
-
-
 
 
 #subbutton {
@@ -1349,11 +1229,6 @@ input:focus {
 }
 
 
-
-
-
-
-
 button:focus {
 
   outline: none;
@@ -1361,17 +1236,10 @@ button:focus {
 }
 
 
-
-
 #subbutton:hover {
 
   background: #b64036
 }
-
-
-
-
-
 
 
 .main-carousel p {
@@ -1409,11 +1277,6 @@ button:focus {
 }
 
 
-
-
-
-
-
 .copywrite {
 
   display: flex;
@@ -1427,8 +1290,6 @@ button:focus {
   border: 0;
 
 }
-
-
 
 
 .feet {
@@ -1470,7 +1331,7 @@ footer a:hover {
 
 
 
-.find-us {
+.social-media {
 
   display: flex;
 
@@ -1489,7 +1350,7 @@ footer a:hover {
 
 
 
-.find-us ul {
+.social-media ul {
 
   display: flex;
 
@@ -1498,7 +1359,7 @@ footer a:hover {
 
 
 
-.find-us li {
+.social-media li {
 
   display: flex;
 
@@ -1513,7 +1374,7 @@ footer a:hover {
 
 
 
-.other-footer {
+.footer-find-us {
 
   margin-top: 50px;
 
@@ -1522,7 +1383,7 @@ footer a:hover {
 
 
 
-.other-footer p {
+.footer-find-us p {
 
   color: white;
 
@@ -1535,7 +1396,7 @@ footer a:hover {
 
 
 
-.other-footer a {
+.footer-find-us a {
 
   color: white;
 
@@ -1769,7 +1630,7 @@ footer a:hover {
 
     background-size: cover;
 
-    background-position: center;
+    background-position: bottom;
 
     display: flex;
 
@@ -1809,7 +1670,7 @@ footer a:hover {
 
       url(images/womens-category.jpg);
 
-    background-position: center;
+    background-position: top left;
 
     background-size: cover;
 
@@ -2005,7 +1866,7 @@ footer a:hover {
 
     background-size: cover;
 
-    background-position: center;
+    background-position: bottom;
 
     display: flex;
 
@@ -2071,13 +1932,6 @@ footer a:hover {
 
 
 
-
-
-
-
-
-
-
   footer {
 
     display: flex;
@@ -2107,7 +1961,7 @@ footer a:hover {
 
 
 
-  .find-us {
+  .social-media {
 
     display: flex;
 
@@ -2132,7 +1986,7 @@ footer a:hover {
 
 
 
-  .other-footer {
+  .footer-find-us {
 
     margin-bottom: 55px;
 
@@ -2151,7 +2005,7 @@ footer a:hover {
 
 
 
-  .other-footer p {
+  .footer-find-us p {
 
     display: flex;
 
