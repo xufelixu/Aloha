@@ -1,24 +1,27 @@
-## Aloha Project
+# Aloha Project
+<img src="./images/aloha-home.png" alt="aloha-home">
+<img src="./images/aloha-shop.png" alt="aloha-shop">
+This project is Responsive Web Design (RWD)
 
 ## Installation
-
--download the file from school.
--Visual studio Code
--Google Chrome
--Google Font
+* Git
+* Visual studio Code
+* Google Chrome
+* Google Font
 
 ## Technologies
+* Javascript
+* plugin from flickity
+* Css
+  - Flexbox
+  - Media Queries
+* Html
 
--Javascript
--plugin from flickity
--Css
--Html
+### Author
 
-## Meata
-
--Felix
+## Felix
 
 ## Reference
 
--W3C
--flickity
+* W3C
+* flickity
