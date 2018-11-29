@@ -1,12 +1,24 @@
-# Project 1
+## Aloha Project
 
-This is a thoughful write-up about my project-1, Aloha.
-This project is made from scratch.
+## Installation
 
-There are three main parts index.html,style.css and index.js.
+-download the file from school.
+-Visual studio Code
+-Google Chrome
+-Google Font
 
-with my instructor Jim and Ben helping , I composed the first draft of this Project.
+## Technologies
 
-the index.js is the plugin from flickity.
+-Javascript
+-plugin from flickity
+-Css
+-Html
 
-this project made me understanding how to utilize most of the tags in html and css.
+## Meata
+
+-Felix
+
+## Reference
+
+-W3C
+-flickity

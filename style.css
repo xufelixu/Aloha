@@ -1,6 +1,23 @@
 body* {
   font-family: "Raleway", sans-serif;
 }
+/* above all content */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  clip: auto !important;
+  display: block;
+  height: auto;
+  left: 5px;
+  top: 5px;
+  width: auto;
+}
 
 .navigation-container {
   display: flex;
@@ -121,7 +138,7 @@ h1 {
 
 .trends {
   background-image: url("./project-01/images/trends-category.jpg");
-  width: 24%;
+  width: 25%;
   height: 25vw;
   background-size: cover;
   padding-top: 30px;
@@ -130,7 +147,7 @@ h1 {
 
 .glasses {
   background-image: url("./project-01/images/glasses-category.jpg");
-  width: 23%;
+  width: 25%;
   height: 25vw;
   background-size: cover;
   padding-top: 30px;
@@ -139,7 +156,7 @@ h1 {
 
 .sales {
   background-image: url("./project-01/images/sale-category.jpg");
-  width: 23%;
+  width: 25%;
   height: 25vw;
   background-size: cover;
   padding-top: 30px;
@@ -541,51 +558,55 @@ h2 {
 @media only screen and (min-width: 1240px) {
   .men {
     background-image: url("./project-01/images/mens-category.jpg");
-    width: 45%;
+    width: 50%;
     height: 200px;
-    background-size: 100%;
+    background-size: cover;
     margin: 5px;
+    border: solid green;
   }
 
   .trends {
     background-image: url("./project-01/images/trends-category.jpg");
-    width: 22%;
+    width: 21%;
     height: 200px;
     background-size: cover;
     margin: 5px;
+    border: solid green;
   }
 
   .glasses {
     background-image: url("./project-01/images/glasses-category.jpg");
-    width: 22%;
+    width: 25%;
     height: 200px;
     background-size: cover;
     margin: 5px;
+    border: solid green;
   }
 
   .sales {
     background-image: url("./project-01/images/sale-category.jpg");
-    width: 22%;
+    width: 21%;
     height: 200px;
     background-size: cover;
     margin: 5px;
+    border: solid green;
   }
 
   .bags {
     background-image: url("./project-01/images/bags-category.jpg");
-    width: 22%;
+    width: 25%;
     height: 200px;
     background-size: cover;
-    margin: 5px;
+    padding: 5px;
     background-position: center bottom;
   }
 
   .womens {
     background-image: url("./project-01/images/womens-category.jpg");
-    width: 45%;
-    height: 200px;
+    width: 50%;
+    height: 250px;
     background-size: cover;
-    margin: 5px;
+    padding: 5px;
   }
 
   .sign-up-text {
@@ -601,10 +622,15 @@ h2 {
   }
 
   .category {
-    width: 110%;
+    border: solid green;
+    width: 100%;
   }
 
   .navi {
-    width: 200%;
+    width: 100%;
   }
+}
+
+html {
+  margin: 10px;
 }
