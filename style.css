@@ -1205,6 +1205,8 @@ h1 p {
 
   line-height: 2;
 
+  margin-top: 50px;
+
 }
 
 
@@ -2172,8 +2174,6 @@ footer a:hover {
     color: white;
 
   }
-
-
 
 
   footer a:hover {
