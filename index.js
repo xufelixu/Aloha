@@ -1,19 +1,24 @@
-$('.main-carousel').flickity({
-  cellAlign: 'left',
-  contain: true,
-  wrapAround: true
-})
+(function ($) {
+  $(function () {
 
-$('#submit').click(function () {
-  alert('thank you for your input.')
-})
+    $('.main-carousel').flickity({
+      cellAlign: 'left',
+      contain: true,
+      wrapAround: true
+    })
 
-$('#emailbox').submit(function (event) {
-  event.preventDefault()
+    $('#submit').click(function () {
+      alert('thank you for your input.');
+    })
 
-  if ($('#enteremail').val() == '') {
-    alert('Please enter a valid email address!')
-  } else {
-    alert('Thanks for your subscription!')
-  }
-})
+    $('#emailbox').submit(function (event) {
+      event.preventDefault()
+
+      if ($('#enteremail').val() == '') {
+        alert('Please enter a valid email address!');
+      } else {
+        alert('Thanks for your subscription!');
+      }
+    })
+  });
+})(jQuery);

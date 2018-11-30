@@ -21,28 +21,13 @@
 </head>
 
 <body>
+    <!-- header Section -->
     <header>
-        <div class="flexcontainer" id="header-nav">
+        <nav class="headerContainer">
 
-            <div class="logothumbnail">
+            <div class="logo">
 
                 <a href="#"><img src="images/aloha-logo.svg" alt="alha-logo"></a>
-
-            </div>
-
-            <div class="table">
-
-                <ul class="navi">
-
-                    <li><a class="navi-title" href="#about">About</a></li>
-
-                    <li><a class="navi-title" href="#shop">Shop</a></li>
-
-                    <li><a class="navi-title" href="#featured">Featured</a></li>
-
-                    <li><a class="navi-title" href="#updates">Updates</a></li>
-
-                </ul>
 
             </div>
 
@@ -52,112 +37,112 @@
 
             </div>
 
-        </div>
+
+            <ul class="menu">
+
+                <li><a class="navi-title" href="#about">About</a></li>
+
+                <li><a class="navi-title" href="#shop">Shop</a></li>
+
+                <li><a class="navi-title" href="#featured">Featured</a></li>
+
+                <li><a class="navi-title" href="#updates">Updates</a></li>
+
+            </ul>
+
+
+
+        </nav>
 
     </header>
+    <!-- Banner Section -->
+    <div class="banner">
 
-
-    <div class="container">
-
-
-        <div class="newcollectionContainer">
-
-            <span class="newcollection">NEW COLLECTION</span>
-
-            <div class="spring-summer-collection">
-
-                <span class="spring-summer-font">Spring/Summer <br></span>
-
-                <span class="year" id="yearnav">2017</span>
-
-            </div>
-
-        </div>
-
+        <h3>New Collection</h3>
+        <h1>Spring / Summer 2018</h1>
 
     </div>
+    <!-- about Section -->
+    <div id="about" class="about-text">
 
-    <div class="h1">
+        <h2>Hand-Crafted<span class="boldstyle"> Styles</span>
+            <h2>
 
-        <div class="handtext" id="about">
-
-            Hand-Crafted &nbsp;<span class="boldstyle"> Styles</span><br>
-
-        </div>
-
-        <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products
-            or sign-up for updates below.</p>
+                <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of
+                    products
+                    or sign-up for updates below.</p>
 
     </div>
+    <!-- product Section -->
+    <section id="shop" class="product-container">
 
-    <section class="titlepics" id="shop">
+        <div class="product-rectangle-img">
 
-        <div class="catalogue1-2">
+            <div class="productMan">
 
-            <div class="catalogue1">
-
-                <p><a href="#">MEN'S</a></p>
+                <a href="#"><span>Men's</span></a>
 
             </div>
+        </div>
 
-            <div class="catalogue2container">
+        <div class="product-square-img">
 
-                <div class="catalogue2">
+            <div class="productTrends">
 
-                    <p><a href="#">TRENDS</a></p>
-
-                </div>
-
-                <div class="catalogue2-1">
-
-                    <p><a href="#">GLASSES</a></p>
-
-                </div>
+                <a href="#"><span>Trends</span></a>
 
             </div>
 
         </div>
 
-        <div class="catalogue3-1-1">
+        <div class="product-square-img">
 
-            <div class="catalogue3container">
+            <div class="productGlasses">
 
-                <div class="catalogue3">
-
-                    <p><a href="#">SALE</a></p>
-
-                </div>
-
-                <div class="catalogue3-1">
-
-                    <p><a href="#">BAGS</a></p>
-
-                </div>
-
-            </div>
-
-            <div class="catalogue1-1" id="featuressmoothscroll">
-
-                <p><a href="#">WOMEN'S</a></p>
+                <a href="#"><span>Glasses</span></a>
 
             </div>
 
         </div>
 
 
+        <div class="product-square-img">
+
+            <div class="productSale">
+
+                <a href="#"><span>Sale</span></a>
+
+            </div>
+        </div>
+        <div class="product-square-img">
+
+            <div class="productBags">
+
+                <a href="#"><span>Bags</span></a>
+
+            </div>
+
+        </div>
+
+        <div class="product-rectangle-img">
+            <div class="productWomens">
+
+                <a href="#"><span>Womens</span></a>
+
+            </div>
+
+        </div>
 
     </section>
 
-    <div class="h3">
+    <!-- festure Section -->
+    <section id="featured" class="feature-container">
 
-        <div class="h3text" id="featured">
+        <h2>Most-Loved <span>Products</span></h2>
 
-            Most-Loved &nbsp;<span class="lovedprods"> Products</span>
+    </section>
 
-        </div>
-
-    </div>
-
+    <!-- .main-carousel -->
     <div class="main-carousel">
 
         <div class="carousel-cell">
@@ -224,24 +209,28 @@
 
         </div>
 
-    </div><!-- .main-carousel -->
+    </div>
+    <!-- updates Section -->
+    <section class="updates-container" id="updates">
 
-    <section class="updates" id="updates">
+        <div class="updates">
 
-        <div class="h5container">
+            <h2>Sign-up for
 
-            <div class="h2-special-text">
+                <span>
 
-                <span id="signup">Sign-up for </span><span id="update">Updates</span>
+                    Updates
 
-            </div>
-
-            <p>Stay updated on our latest product releases, be first to find out about upcoming sales,
-                <span class="csslinebreak">
-                    and get free style tips from out blog. Unsubscribe at any time.
                 </span>
+
+            </h2>
+
+            <p>
+                Stay updated on our latest product releases, be first to find out about upcoming sales, and get free
+                style tips from our blog. Unsubscribe at any time.
             </p>
 
+            <!-- Subscribtion Form Area -->
             <form id="emailbox">
 
                 <input type="text" name="your email" id="enteremail" placeholder="  Your Email @ " />
@@ -253,50 +242,83 @@
 
 
     </section>
+    <!-- footer Section -->
+    <footer class="footlink">
+       
+        <div class="footer-container">
+            
+            <div class="footer-find-us">
 
-    <footer id="footlink">
+                <p class="copywrite">&copy; 2016 Aloha Apparel Co. <br> Powered by HTML and CSS.</p><br>
 
-        <div class="footer-find-us">
+                <p class="feet">604-604-6040, &nbsp;<a href="info@alohaapprrel.com">info@alohaapparrel.com</a></p><br>
 
-            <p class="copywrite">&copy; 2016 Aloha Apparel Co. <br> Powered by HTML and CSS.</p><br>
+                <p class="address">1490 W Broadway <br> Vancouver, BC., Canada</p>
 
-            <p class="feet">604-604-6040, &nbsp;<a href="info@alohaapprrel.com">info@alohaapparrel.com</a></p><br>
+            </div>
 
-            <p id="coloredfeet">1490 W Broadway <br> Vancouver, BC., Canada</p>
+            <!-- social media Section -->
+            <div class="social-media">
+
+                <ul>
+
+                    <li>
+
+                        <a href="#">
+
+                            <i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            <i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            <i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            <i class="fa fa-pinterest" aria-hidden="true"></i><span>Pinterest</span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            <i class="fa fa-google" aria-hidden="true"></i><span>Google+</span>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
 
         </div>
 
-        <ul class="social-media">
-            <!-- social media -->
-
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
-                    <p class="smedia">&nbsp; Facebook</p>
-                </a></li>
-
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
-                    <p class="smedia">&nbsp; Twitter</p>
-                </a></li>
-
-            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
-                    <p class="smedia">&nbsp; Instagram</p>
-                </a></li>
-
-            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i>
-                    <p class="smedia">&nbsp; Pinterest</p>
-                </a></li>
-
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>
-                    <p class="smedia">&nbsp; Google+</p>
-
-                </a></li>
-
-        </ul>
-
-
     </footer>
-
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
